@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+  
+  body { font-family: sans-serif; background-color: #f4f4f4; display: flex; flex-direction: column; align-items: center; 
+
+    background-image: url(./IMG/fundo.mhw.jpeg); /* Verifique se o nome está exatamente assim */
+    background-repeat: no-repeat;  /* Impede que a imagem se repita */
+    background-size: cover;       /* Faz a imagem esticar para cobrir toda a tela */
+    background-position: center;  /* Centraliza a imagem */
+    background-attachment: fixed; /* Opcional: a imagem fica parada enquanto você rola a página */
+    
+    /* Mantendo suas outras regras */
+    font-family: "Agbalumo", system-ui;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+
+        
+        .search-container { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+
+        .monster-card { 
+            background: white; border: 2px solid #333; padding: 20px; 
+            max-width: 450px; text-align: center; border-radius: 15px;
+            display: none; /* Começa escondido */
+        }
+
+        /* Efeito de Transição */
+        .fade-in {
+            animation: fadeIn ease 1.5s;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); } 
+        }
+
+        .monster-images { display: flex; justify-content: space-around; align-items: center; margin-top: 15px; gap: 10px; border:#222; }
+        .logo-icon { width: 60px; height: 60px; object-fit: contain; background: #eee; border-radius: 50%; padding: 5px; }
+        .main-img { width: 250px; border-radius: 8px; border: 1px solid #ddd; }
+        
+        button { cursor: pointer; background: #222; color: white; border: none; padding: 8px 15px; border-radius: 5px; }
+        button:hover { background: #444; }
+
+      
+    
+
+        h1 {
+            background-color: white;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-family: "Kablammo", system-ui; ;
+
+
+        }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Hunter do Balacobaco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Guia de Campo do Caçador</h1>
+
+    <div class="search-container">
+        <label for="idMonstro">ID do Monstro:</label>
+        <input type="number" id="idMonstro" placeholder="Ex: 1, 2 ou 3">
+        <button onclick="buscarMonstro()">Buscar Monstro</button>
+    </div>
+
+    <div id="resultado" class="monster-card">
+        <h2 id="nome"></h2>
+        <hr>
+        <p id="dados"></p>
+        
+        <div class="monster-images">
+            <div>
+                <p><small>Ícone:</small></p>
+                <img id="logo" class="logo-icon" src="" alt="Logo">
+            </div>
+            <div>
+                <p><small>Espécime:</small></p>
+                <img id="image" class="main-img" src="" alt="Imagem">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!--
+   Professoresor, este é o código HTML para a página do "Guia de Campo do Caçador". Ele inclui um campo de busca para o ID do monstro, um botão para acionar a busca, e uma seção para exibir os resultados, incluindo o nome do monstro, seus dados e imagens. O estilo e a funcionalidade serão definidos nos arquivos "style.css" e "script.js", respectivamente. Usei ferramentas de IA apenas para deixar o site mais legal, mas o conteúdo e a estrutura foram criados por mim. Espero que goste do resultado!
+-->
